@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --COLOR-C : rgb(255, 255, 255);
+}
+
+body{
+    overflow-y: auto;
+    position: sticky;
+}
+
+.header .logo-tesla{
+    padding-left: 28px;
+    width: 170px;
+    padding-top: 5px;
+}
+.header .logo-tesla>a{
+    width: 40px;
+    color: var(--COLOR-C);
+    padding: 5px;
+}
+
+.div11{
+    height: 100vh;
+    background-image: url('./images/c1-off.jpg');
+    background-size: cover;
+}
+
+.div11 .header{
+    color: var(--COLOR-C);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.div11 .head-bar-mid{
+    display:flex ;
+    justify-content: space-between;
+    flex-grow: .13;
+}
+
+.div11 .head-bar-mid a{
+    text-decoration: none;
+    color: var(--COLOR-C);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: .04;
+    padding-right: 20px;
+    
+}
+
+.login a{
+    color: var(--COLOR-C);
+    font-size: 24px;
+}
+
+
+.div21{
+    background-color: red;
+    height: 400px;
+}
+
+  .header .head-bar-mid .n1 {
+    top: 59px;
+        background-color: white;
+        height: 350px;
+        position: absolute;
+        left: 0;
+        display: none;
+        transform-origin: top center;
+        animation: ss 0.3s ease forwards;
+        width: 100%;
+    }
+
+    .header .head-bar-mid .n1 .immgg{
+        top: 67px;
+        display: grid;
+        column-gap: 50px;
+        margin-left: 70px;
+        grid-template-columns: auto auto auto auto auto;
+        margin-top: 70px;
+        margin-right: 70px;
+    }
+
+    .header .head-bar-mid .n1 .immgg .immg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: monospace;
+        
+        font-size: small;
+    }
+
+    .header .head-bar-mid .j11:hover + .n1{
+        display: block;
+    }
+  
+    .header .head-bar-mid:hover > .ja * {
+        transform: scale(105%);
+    }
+
+
+    
+    @keyframes ss {
+        0%{
+            transform: scaleY(.5);
+        }
+        100%{
+            transform: scaleY(1);
+        }
+    }
+    
+    .header .head-bar-mid .n2{
+        top: 59px;
+        background-color: white;
+        height: 350px;
+        position: absolute;
+        left: 0;
+        display: none;
+        transform-origin: top center;
+        animation: ss 0.3s ease forwards;
+        width: 100%;
+    }
+
+    .header .head-bar-mid .n2 .immggg{
+        display: grid;
+        column-gap: 50px;
+        margin-left: 150px;
+        grid-template-columns: auto auto auto auto auto;
+        margin-top: 70px;
+        margin-right: 70px;
+    }
+
+    .header .head-bar-mid .n2 .immggg .immg1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: monospace;
+        
+        font-size: small;
+    }
+    .header .head-bar-mid .j12:hover + .n2{
+        display: block;
+    }
+
+    
+    .header .head-bar-mid .n3 {
+        top: 59px;
+        background-color: white;
+        height: 350px;
+        position: absolute;
+        left: 0;
+        display: none;
+        transform-origin: top center;
+        animation: ss 0.3s ease forwards;
+        width: 100%;
+    }
+
+    .header .head-bar-mid .n3 .immgggg{
+        display: grid;
+        column-gap: 50px;
+        margin-left: 350px;
+        grid-template-columns: auto auto auto auto auto;
+        margin-top: 70px;
+        margin-right: 70px;
+        
+    }
+
+    .header .head-bar-mid .n3 .immgggg .immg11{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: monospace;
+        gap: 10px;
+        
+        font-size: small;
+    }
+
+    .header .head-bar-mid .j13:hover + .n3{
+        display: block;
+    }
+
+    .header .head-bar-mid .n4 {
+        top: 59px;
+        background-color: white;
+        height: 350px;
+        position: absolute;
+        left: 0;
+        display: none;
+        transform-origin: top center;
+        animation: ss 0.3s ease forwards;
+        width: 100%;
+    }
+
+    .header .head-bar-mid .j14:hover + .n4{
+        display: block;
+        justify-content: center;
+    }
+
+    
+
+    .header .head-bar-mid .n4 .n44{
+        display: flex;
+        margin-left: 100px;
+        gap: 140px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 100px;
+    }
+    .header .head-bar-mid .n4 .n44 .n31{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: 10vw;
+    }
+    .header .head-bar-mid .n4 .n44 .n31 a{
+
+        font-weight: 100;
+        font-size: medium;
+        
+        font-size: small;
+    }
+
+    .header .head-bar-mid .n4 .n44 .n31 .jakhu{
+        color: rgb(70, 66, 66);
+        font-weight: bolder;
+        font-size: medium;
+    }
+
+    .header .head-bar-mid .n5 {
+        top: 59px;
+        background-color: white;
+        height: 350px;
+        position: absolute;
+        left: 0;
+        display: none;
+        transform-origin: top center;
+        animation: ss 0.3s ease forwards;
+        width: 100%;
+    }
+
+    .header .head-bar-mid .n5 .immggggg{
+        display: grid;
+        column-gap: 50px;
+        margin-left: 200px;
+        grid-template-columns: auto auto auto auto auto;
+        margin-top: 70px;
+        margin-right: 70px;
+        
+    }
+
+    .header .head-bar-mid .n5 .immggggg .immg111{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family:monospace;
+        gap: 10px;
+        font-size: small;
+    }
+
+    .header .head-bar-mid .j15:hover + .n5{
+        display: block;
+    }
+
+    .div11 .main-logo-order .cub-cen-logo{
+        width: 450px;
+        display: grid;
+    }
+
+    .div11 .main-logo-order{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 330px;
+        margin-top: 7%;
+        height: 100vh;
+    } 
+
+    .div11 .main-logo-order .order-now{
+        background-color: #000000;
+        width: 200px;
+        height: 40px;
+        border-top: 2px solid rgb(73, 75, 98);
+    }
+    .div11 .main-logo-order .order-now .o-n{
+        width: 200px;
+        height: 40px;
+        background-color: #000000;
+        color: aliceblue;
+    }
+    .header:hover{
+        background-color: white ;
+        --COLOR-C : rgb(0, 0, 0);
+    }
+
+    .div21{
+        background-image: url('./images/cy-img-1.avif');
+        height: 130vh;
+        background-size: cover;
+        
+    }
+
+    .div21 .specifications{
+        position: relative;
+        height: 80px;
+        top: 730px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px
+    }
+
+    .div21 .specifications .specifications1{
+        width: 170px;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+    .div21 .specifications .specifications1 .specifications11{
+        background-color: #0000006e;
+        
+        color: rgba(255, 255, 255, 0.756);
+        width: 165px;
+        height: 75px;
+        margin-top: 10px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        align-items: center;
+    }
+    .div21 .specifications .specifications1 .specifications11 h1{
+        font-family: sans-serif;
+        font-size: 29px;
+        font-weight: 400;
+    }
+    .div21 .specifications .specifications1 .specifications11 h1 span{
+        font-family: monospace;
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.605);
+
+    }
+    .div21 .specifications .specifications1 .specifications11 h3{
+        font-family: monospace;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.605);
+
+    }
+
+
+    .div21 .specifications .specifications2{
+        width: 170px;
+        border-top: 1px solid rgb(255, 255, 255);
+    }
+    .div21 .specifications .specifications2 .specifications22{
+        background-color: #0000006e;
+        
+        color: rgba(255, 255, 255, 0.756);
+        width: 170px;
+        height: 75px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        align-items: center;
+    }
+    .div21 .specifications .specifications2 .specifications22 h1{
+        font-family: 'Gotham SSm',sans-serif;
+        font-size: 29px;
+        font-weight: 400;
+    }
+    .div21 .specifications .specifications2 .specifications22 h3{
+        font-family: monospace;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.605);
+
+    }
+    .div21 .specifications .specifications2 .specifications22 h1 span{
+        font-family: monospace;
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.605);
+
+    }
+
+
+
+
+    .div21 .specifications .specifications3{
+        width: 170px;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+    }
+
+    
+    .div21 .specifications .specifications3 .specifications33{
+        background-color: #0000006e;
+        
+        color: rgba(255, 255, 255, 0.756);
+        width: 165px;
+        height: 75px;
+        margin-top: 5px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        align-items: center;
+    }
+    .div21 .specifications .specifications3 .specifications33 h1{
+        font-family: 'Gotham SSm',sans-serif;
+        font-size: 29px;
+        font-weight: 400;
+    }
+    .div21 .specifications .specifications3 .specifications33 h3{
+        font-family: monospace;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.605);
+
+    }
+    .div21 .specifications .specifications3 .specifications33 h1 span{
+        font-family: monospace;
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.605);
+
+    }
+
+    
+
+
+.div31{
+    background-color: rgba(0, 0, 0, 0.937);
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.div31 .div311{
+    margin-top: 140px;
+    position: absolute;
+}
+
+.div31 video{
+    position:relative;
+    z-index: 1;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+
+.div41{
+    background-color: rgba(0, 0, 0, 0.937);
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+.div51{
+    background-color: rgba(0, 0, 0, 0.937);
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.div51 .div511{
+    margin-top: 153px;
+    position: absolute;
+}
+
+.div51 video{
+    position:relative;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.div61{
+    height: 120vh;
+
+    background-color:  rgba(0, 0, 0, 0.937);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.div61 .div661{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div61 .div661 .div0001{
+   
+    margin-top: 10px;
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    border: 1.5px solid rgba(255, 255, 255, 0.175)  ;
+    padding: 10px;
+}
+
+.div61 .div661 .div0001 .div62{
+    background-color: aqua;
+    background-image: url('./images/parr-1.avif');
+    background-size: cover;
+    width: 650px;
+       
+}
+
+.div61  .div661 .div0001 .div63{
+    background-image:url('./images/Dark\ Background\ Wallpaper.jpeg');
+    opacity: 20%;
+    background-size: cover;
+    width: 350px;
+ 
+}
+
+.div61  .div661 .div0001 .div63 .div63text{
+
+    color: rgb(255, 255, 255);
+    font-size: large;
+    height: 150vh;
+    width: 300px;
+    padding-left: 20px;
+    height : 1000px;
+}
+.div61  .div661 .div0001 .div63 .div63text h2{
+    font-family: Roboto ,sans-serif ;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    z-index: 1;
+   margin-top: 20PX;
+   margin-left: 20px;
+}
+.div61  .div661 .div0001 .div63 .div63text h5{
+    font-family: Roboto ,sans-serif ;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    z-index: 1;
+   margin-left: 20px;
+}
+
+.div61  .div661 .div0001 .div63 .div63text >p{
+    font-family: Roboto ,sans-serif ;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    z-index: 1;
+    font-size: small;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+
+.div71 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/Cybertruck-Into-The-Wild-Desktop.avif');
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+}
+
+.div71 .div777{
+    padding-left: 300px;
+    padding-top: 700px;
+    
+}
+
+.div71 .div712{
+    background-color: #000000a8;
+    width: 400px;
+    height: 260px;
+    border-top: 2px solid rgb(255, 241, 216);
+}
+.div71 .div712 h5{
+    color: rgba(255, 255, 255, 0.664);
+    font-family: Roboto ,sans-serif ;
+    font-size: medium;
+   padding-top: 25px;
+   margin-left: 25px;
+   font-weight: 100;
+   font-size: medium;
+}
+
+.div71 .div712 h3{
+    color: rgba(255, 255, 255, 0.664);
+    font-family: Roboto ,sans-serif ;
+    font-size: x-large;
+   margin-left: 25px;
+   padding-top: 5px;
+   font-weight: bolder;
+}
+.div71 .div712 >p{
+    color: rgb(255, 255, 255);
+    font-family: Roboto ,sans-serif ;
+    font-size: medium;
+   margin-top: 15px;
+   padding: 25px;
+   font-weight: 100;
+    font-style:initial;
+}
+
+
+.div81{
+    height: 110vh;
+    background-color: #000000;
+}
+
+.div81 .div881{
+    margin-left: 150px;
+    z-index: 1;
+    padding-top: 180px;
+}
+.div91{
+    height: 160vh;
+    background-color: #000000;
+}
+
+.divz1{
+    
+    background-color: #000000;
+}
+
+.divz1 .divz11{
+    padding: 150px;
+}
+.divz1 .divz11 button{
+    color: red;
+    display: block;
+    position: relative;
+}
+.divz1 .divz11 .w3-display-left{
+    transform: translateY(-400px);
+  
+}
+.divz1 .divz11 .w3-display-right{
+    transform: translate(1190px,-430px);
+}
+
+.xxxxx{
+    background-size: cover;
+    width: 100%;
+}
